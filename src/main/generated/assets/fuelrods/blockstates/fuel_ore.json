@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "fuelrods:block/fuel_ore"
+    }
+  }
+}

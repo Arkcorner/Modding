@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "fuelrods:fuel_block",
+    "fuelrods:fuel_ore"
+  ]
+}

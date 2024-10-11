@@ -1,0 +1,8 @@
+{
+  "item.fuelrods.fuel_rod": "Fuel Rod",
+  "item.fuelrods.rod": "Rod :)",
+  "item.fuelrods.raw_fuel": "Raw Fuel",
+  "block.fuelrods.fuel_ore": "Fuel Ore",
+  "block.fuelrods.fuel_block": "Block of Fuel",
+  "itemgroup.fuel": "Fuel Rods"
+}

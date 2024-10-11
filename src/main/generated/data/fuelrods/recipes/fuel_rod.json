@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "fuelrods:fuel_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "fuelrods:fuel_rod"
+  }
+}

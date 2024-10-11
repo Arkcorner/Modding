@@ -1,0 +1,10 @@
+// 1.20.1	2024-08-23T16:56:27.5398363	FuelRods/Model Definitions
+c20ada11fc8b98eebf8c83baf4b2b72715c0f2c6 assets\fuelrods\models\item\rod.json
+9fc9a94c0dc137e3ce614e4508ddee00fa069baf assets\fuelrods\models\item\fuel_rod.json
+c0c3241ec76062436585157bc1debc746498ed93 assets\fuelrods\models\item\fuel_ore.json
+8e25fb2c5322e534ac36fa347d8a026f76fca5e5 assets\fuelrods\models\item\fuel_block.json
+c5c9a916cf565c1bdb2ac004d694fd4befe3fd75 assets\fuelrods\blockstates\fuel_ore.json
+527f467229108a333e478f0c03057fd37160fe98 assets\fuelrods\models\block\fuel_block.json
+d4ed8ab9858d62f8603d13c00395e46e436e2add assets\fuelrods\models\item\raw_fuel.json
+5a81bb6d138ea215cd8c3f7eafc92b9ae4e27eaa assets\fuelrods\models\block\fuel_ore.json
+57216708dd333e3157070ada4a6be9a241221cd2 assets\fuelrods\blockstates\fuel_block.json
