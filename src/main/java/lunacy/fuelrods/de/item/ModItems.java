@@ -15,6 +15,9 @@ public class ModItems {
     public static final Item ROD = registerItem("rod", new Item(new FabricItemSettings()));
     public static final Item RAW_FUEL = registerItem("raw_fuel", new Item(new FabricItemSettings()));
 
+    public static final Item FUEL_STAFF = registerItem("fuel_staff",
+            new Item(new FabricItemSettings().maxCount(1)));
+
     private static void addItemsToIngredientTabItemGroup(FabricItemGroupEntries entries) {
         entries.add(FUEL_ROD);
         entries.add(ROD);

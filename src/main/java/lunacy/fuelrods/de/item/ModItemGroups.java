@@ -23,6 +23,7 @@ public class ModItemGroups {
                         entries.add(ModItems.FUEL_ROD);
                         entries.add(ModBlocks.FUEL_BLOCK);
                         entries.add(Items.COAL);
+                        entries.add(ModItems.FUEL_STAFF);
                     }).build());
 
     public static void registerItemGroups() {
