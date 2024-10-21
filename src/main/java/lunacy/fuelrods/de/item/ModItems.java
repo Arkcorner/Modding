@@ -1,6 +1,7 @@
 package lunacy.fuelrods.de.item;
 
 import lunacy.fuelrods.de.FuelRods;
+import lunacy.fuelrods.de.item.custom.FuelStaffItem;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
@@ -16,8 +17,7 @@ public class ModItems {
     public static final Item RAW_FUEL = registerItem("raw_fuel", new Item(new FabricItemSettings()));
 
     public static final Item FUEL_STAFF = registerItem("fuel_staff",
-            new Item(new FabricItemSettings().maxCount(1)));
-
+            new FuelStaffItem(new FabricItemSettings().maxCount(1)));
     private static void addItemsToIngredientTabItemGroup(FabricItemGroupEntries entries) {
         entries.add(FUEL_ROD);
         entries.add(ROD);
