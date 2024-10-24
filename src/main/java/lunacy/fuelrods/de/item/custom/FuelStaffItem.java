@@ -5,6 +5,7 @@ import net.minecraft.enchantment.Enchantments;
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.LightningEntity;
 import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.entity.projectile.FireballEntity;
 import net.minecraft.entity.projectile.PersistentProjectileEntity;
 import net.minecraft.item.ArrowItem;
 import net.minecraft.item.Item;
@@ -17,6 +18,7 @@ import net.minecraft.util.Hand;
 import net.minecraft.util.TypedActionResult;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
+
 
 public class FuelStaffItem extends Item {
     public FuelStaffItem(Settings settings) {
@@ -43,7 +45,9 @@ public class FuelStaffItem extends Item {
             persistentProjectileEntity.setVelocity(playerEntity, playerEntity.getPitch(), playerEntity.getYaw(), 0.0F, 10.0F, 1.0F);
 
 
-            world.spawnEntity(persistentProjectileEntity);
+            FireballEntity fireballEntity = new FireballEntity(world, playerEntity,0, 0, 0,1);
+            fireballEntity.setVelocity(playerEntity, playerEntity.getPitch(), playerEntity.getYaw(), 0.0F, 5.0F, 0F);
+            world.spawnEntity(fireballEntity);
         }
 
         world.playSound((PlayerEntity) null, playerEntity.getX(), playerEntity.getY(), playerEntity.getZ(), SoundEvents.ENTITY_ARROW_SHOOT, SoundCategory.PLAYERS, 1.0F, 1.0F / (world.getRandom().nextFloat() * 0.4F + 1.2F) + 0.5F);
